@@ -1,13 +1,44 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+
+  background: linear-gradient(120deg, #a964ef 0%, #995ae7 100%);
+
+  min-height: 100vh;
+}
+body {
+  background: #f7f7f7;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.airbnb-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.25s ease;
+}
+
+.airbnb-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.airbnb-card img {
+  height: 180px;
+  object-fit: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.lavender-bg {
+  background-color: lavender;
 }
